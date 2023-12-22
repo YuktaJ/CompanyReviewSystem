@@ -1,0 +1,17 @@
+.rating {
+    display: inline-block;
+  }
+  
+  .rating input {
+    display: none;
+  }
+  
+  .rating label {
+    float: right;
+    color: #aaa;
+    font-size: 30px;
+  }
+  
+  .rating input:checked ~ label {
+    color: #ffcc00;
+  }
